@@ -1,0 +1,214 @@
+body{
+      font-family:"Hiragino Sans GB W3",sans-serif;
+	  margin:0;
+	  padding:0;
+	  
+}
+h1{
+     padding:0;
+	 margin:0;
+	 
+}
+
+
+
+
+div#warper{
+     max-width:640px;
+	 width:100%;
+	 margin:0 auto;
+	 position:relative;
+	 background-color:rgb(41,189,224);
+	 font-size:62.5%;
+	 padding-bottom:15%;
+}
+
+
+div#head{
+     background-color:rgb(41,189,224);
+	 width:100%;
+	 position:relative;
+}
+
+div#head .menu{
+     position:absolute;
+	 width:6.1%;
+     left:3.4375%;
+	 top:34.939%;
+}
+
+div#head .exit{
+     position:absolute;
+	 width:5.625%;
+     right:3.4375%;
+	 top:38.5542%;
+}
+
+div#head>p{
+     width:100%;
+     background-color:rgb(41,189,224);
+	 color:white;
+     text-align:center;
+	 line-height:100%;
+	 font-size:3.4em;
+	 padding-top:5.3125%;
+	 padding-bottom:2.96875%;
+	 margin:0;
+          
+}
+
+
+div#mainbody .title{
+               color:black;
+			   background:rgb(185,233,245) url(img/t6c.png) no-repeat 97.5% 50%;
+			   background-size:7.8125%;
+			   line-height:100%;
+			   font-size:2.6em;
+			   padding-top:4.6875%;
+			   padding-bottom:4.0625%;
+			   padding-left:7.5%;
+			   padding-right:2.5%;
+			   margin:0;
+			   position:relative;
+}
+
+div#mainbody .hint{
+               
+               padding-left:10.9375%;
+			   padding-top:3.75%;
+			   font-size:2.4em;
+			   color:white;
+			   background-color:rgb(41,189,224);
+			   margin:0;
+			   line-height:100%;
+			   font-weight:200;
+			
+}
+
+div#mainbody .gamebody{
+               
+			   background-color:rgb(41,189,224);
+			  
+}
+
+div#mainbody .gamebody .player{
+               position:relative;
+               border:medium solid white;
+			   float:left;
+			   display:block;
+			   width:19.53125%;
+			   margin:6.71875% 4.375% 4.84375% 6.5625%;
+}
+
+
+
+div#mainbody .gamebody .player p{
+               background-color:rgb(131,176,154);
+			   color:white;
+               margin:0;
+			   padding:0;
+			   text-align:center;
+			   font-size:2.276em;
+			   line-height:130%;
+
+}
+
+div#mainbody .gamebody .player p:first-child{
+               text-align:center;
+               color:black;
+			   font-size:3em;
+			   margin:0;
+			   background-color:rgb(245,201,123);
+			   padding:30.4% 0;
+			   line-height:100%;
+}
+
+.playerbutton{
+        
+          width:120%;
+		  background-color:rgb(41,189,224);
+		  opacity:0;
+		  padding:0;
+		  position:absolute;
+		  top:120%;
+		  display:block;
+		  left:-3%;
+}
+div#mainbody .gamebody .player>a{
+          display:block;
+		  text-decoration:none;
+}
+div#mainbody .gamebody .player .playerbutton:hover,:focus{
+                         opacity:100;
+}
+ .playerbutton a{
+           background-image:url('img/img.png');
+		   background-repeat:no-repeat;
+		   width:20%;
+		   padding-top:10%;
+		   padding-bottom:10%;
+		   display:block;
+		   float:left;
+		   margin: 0 1.2%;
+		   display:block;
+           background-size:100%;
+		   
+                               
+}
+.playerbutton a.kill{
+           background-position:0 0;
+		   
+}
+.playerbutton a.inquiry{
+          
+           background-position:0 33.33333%;
+}
+a.shot{
+background-position:0 66.66666%;
+}
+a.cure{
+background-position:0 100%;
+}
+
+
+#clear{
+       clear:left;
+}
+
+#floatfoot{
+        background-color:rgba(41,189,224,1);
+		position:fixed;
+		width:40rem;
+		bottom:0;
+		padding:3.75% 0;
+
+}
+#floatfoot p{
+        font-size:3.4em;
+		color:white;
+		text-align:center;
+		width:76.40625%;
+		margin:0 auto;
+		line-height:100%;
+		padding:3.75% 0;
+		background-color:#fbb435;
+		opacity:1;
+
+}
+#icon{
+     display:block;
+	 width:8%;
+	 padding:4.5% 0;
+	 position:absolute;
+	 right:2%;
+	 top:20%;
+}
+
+
+@media screen and (max-width:480px) {
+    html {
+        font-size:30%;
+		}
+		#floatfoot {
+        width:100%;
+    }
