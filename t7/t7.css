@@ -1,0 +1,429 @@
+body,div,img,ul,li,h1,h2,h3,p,em,span,a{
+                    margin:0;
+					padding:0;
+/*					list-style-type:none;*/
+					text-decoration:none;
+					color:white;
+}
+
+
+
+body{
+                    font-family:'Microsoft YaHei';
+					width:100%;
+					font-size:62.5%;
+					 
+					
+}
+div#warper {
+       position:relative;
+       width:100%;
+	   max-width:1920px;
+	   margin:0 auto;
+	   background-color:rgb(250,250,250);
+	   overflow:hidden;
+}
+#warper #head{
+       width:100%;
+}
+#warper #head  p#contacttitle {
+       font-size:1.4em;
+	   -webkit-transition:font-size 0.2s ease-out;
+	   text-align:left;
+	   width:62.5%;
+	   margin:0 auto;
+	   padding:0.625% 0;
+	   color:green;
+	   background-color:rgb(250,250,250);
+	   background:url(img/t7m.png) no-repeat right center;
+	   background-size:auto 65%;
+	   line-height:100%;
+	   
+}
+#warper #head  div.menu{
+                  width:100%;
+				  background-color:green;
+				  margin:0 auto;
+}
+ul{
+   margin-right:17.45%;
+}
+#warper #head  div.menu li{
+                  float:right;
+				  font-size:1.6em;
+				  text-align:center;
+				  color:rgb(250,250,250);
+				  margin:0;	
+				  display:block;
+				  line-height:100%;
+				  padding:2.1875% 1.5625%;
+				 			  
+}
+#warper #head  div.menu a{
+                  
+                  margin:0;	
+}
+#warper #head  div.menu li:hover {                  
+				  border-bottom:medium solid rgb(250,250,250);
+}
+.clear1th{
+        clear:both;
+		text-align:center;
+		font-weight:bold;
+		color:black;
+		line-height:100%;
+}
+#warper #head p.banner{
+                  color:white;
+				  font-size:4em;
+				  text-indent:9.2em;
+				  margin:0 auto;
+				  padding-top:11.51%;
+				  padding-bottom:11.51%;
+				  padding-left:23%;
+				  padding-right:21%;
+				  background:url(img/t75.jpg) no-repeat;
+				  background-size:100% 100%;
+				  
+				  
+
+}
+#warper #head p.banner span:first-child{
+                  font-size:6.3rem;
+				  
+}
+#warper #head p.banner span+span{
+                  font-size:3.75rem;
+				  
+}
+div#mainbody {
+          margin-left:auto;
+          margin-right: auto;
+          width:62.5%;
+		  background-color:rgb(250,250,250);
+		  text-align:center;
+		  margin-top:8.3854%;
+}
+div#mainbody div.floatbox{
+          float:left;
+		  width:19.16666%;
+		  margin-right:8.4266666%;
+		  margin-bottom:0;
+
+		  
+		  
+
+}
+div#mainbody div.floatbox a{
+           display:block;
+		   width:27.826%;
+		   padding:14.5652% 0;
+		   margin:0 auto;
+		   background:url(img/img.png) no-repeat;
+		   background-size:300%;
+}
+div#mainbody div.floatbox a.rock{
+     background-position:0 3%;
+}
+div#mainbody div.floatbox a.rule{
+     background-position:0 9.5%;
+}
+div#mainbody div.floatbox a.human{
+     background-position:0 16.3%;
+}
+div#mainbody div.floatbox p{
+            color:gray;
+			font-size:1rem;
+			text-align:left;
+}
+div#mainbody div.floatbox span{
+           display:block;
+		   color:black;
+		   font-size:1.13rem;
+		   text-align:center;
+		   padding:13.478% 0;
+		   line-height:100%;
+		   font-weight:bold;
+}
+div#mainbody div.stactis{
+           float:left;
+		   border:1px solid rgb(250,250,250);
+		   margin-bottom:-2.58333%;
+		   
+
+}
+div#mainbody div.stactis span:first-child{
+                           margin-top:39%;
+}
+
+div#mainbody div.stactis span{
+           display:block;
+	       background:url(img/img.png);
+		   color:green;
+		   background-position:0 -0.5%;
+		   font-size:1.13rem;
+		   line-height:100%;
+		   background-size:110%;
+		   text-align:left;
+		   text-indent:2em;
+		   margin-bottom:11.25%;
+
+}
+/*div#mainbody div.stactis p+span{*/
+/*            background-position:0 -0.35%;*/
+/*}*/
+
+div#mainbody div.stactis p{
+           color:gray;
+           font-size:1rem;
+		   text-align:left;
+		   margin-bottom:19.375%;
+}
+
+div#mainbody p.how{
+           padding-top:12.33333%;
+		   padding-bottom:4.33333%;
+
+}
+
+
+
+div#mainbody div.howlearn{
+                   width:21%;
+				   float:left;
+				   padding-right:6.5%;
+
+}
+div#mainbody div.howlearn a{
+                   display:block;
+				   text-align:center;
+				   line-height:100%;
+				   padding:10.912% 0;
+                   width:28.174%;
+				   font-size:16px;
+				   color:green;
+				   float:left;
+				   background:url(img/t710.png) no-repeat;
+				   background-size:100%;
+}
+div#mainbody div.howlearn p{
+                   color:gray;
+				   width:62%;
+				   float:left;
+				   text-align:left;
+				   letter-spacing:
+				   font-size:16px;
+				   line-height:237.5%;
+				   padding-top:2.76%;
+				   padding-right:2.571%;
+				   padding-bottom:3.76%;
+				   padding-left:5%;
+}
+div#mainbody div.four{
+                   padding-right:0;
+				   margin-right:-100px;
+
+} 
+
+
+
+
+
+
+
+p.student{
+         padding-bottom:5.9166666%;
+		 padding-top:9.5%;
+}
+
+div#mainbody div.Estudent{
+           float:left;
+		   padding:1.33333% 2.4166666%;
+		   margin-right:3.333333%;
+		   width:17.5%;
+		   background-color:white;
+		   border:1px solid gray;
+		   border-radius:10%;
+}
+div#mainbody div.last{
+           margin-right:-20px;
+}
+
+div#mainbody div.Estudent a{
+                      display:block;
+					  width:51.4285%;
+					  padding:25.7142% 0;
+					  background:url(img/img.png) no-repeat;
+					  background-size:170%;
+					  margin:0 auto;
+}
+div#mainbody div.Estudent .a{
+   background-position:0 63.5%;
+}
+div#mainbody div.Estudent .b{
+   background-position:0 41.5%;
+}
+div#mainbody div.Estudent .c{
+   background-position:0 30.5%;
+}
+div#mainbody div.Estudent .d{
+   background-position:0 52.4%;
+}
+div#mainbody div.Estudent span{
+                      display:block;
+					  font-size:1.13rem;
+					  line-height:100%;
+					  font-weight:bold;
+					  color:black;
+					  padding:20% 0 12.38% 0;
+}
+div#mainbody div.Estudent p{
+                      font-size:1rem;
+					  color:gray;
+					  
+}
+#foot{
+      width:62.5%;
+	  margin:0 auto;
+	  padding:0;
+	  background-color:rgb(250,250,250);
+}
+#foot>p{
+      font-size:1rem;
+	  text-align:center;
+	  line-height:100%;
+	  color:black;
+	  font-weight:bold;
+	  padding-bottom:5.416666%;
+	  padding-top:7.75%;
+}
+#foot .EnIcon img{
+             display:block;
+			 width:20%;
+			 float:left;
+			 margin:0;
+			 padding:0;
+}
+#foot .con_ul{
+             margin:0 auto;
+             width:65.625%;
+			 overflow:hidden;
+			
+}
+#foot div+p{
+             padding-bottom:2.166666%;
+			 font-size:1.13rem;
+}
+
+#foot ul.friendlink{
+             
+             margin:0;
+			 width:100%;
+			 list-style-type:circle;
+			 color:black;
+}
+#foot ul.friendlink li{
+             display:block;
+			 float:left;
+			 margin-right:3.652%;
+			 margin-left:0;
+			 list-style-type:circle;
+			 color:black;
+/*			 width:6.0317%;*/
+			 list-style-position: inside;
+			 padding-bottom:1.11111%;
+			 text-indent:1.6rem;
+			 font-size:0.88rem;
+}
+#foot div.innerfoot {
+             background-color:rgb(38,162,111);
+			 width:62.5%;
+			 margin:0 auto;
+			
+             
+}
+#foot div.innerfoot dl:first-child{
+             padding-top:3.166666%;
+			 width:22.66666%;
+			 padding-left:0;
+			 
+             
+}
+#foot div.innerfoot dl:first-child dt{
+             font-size:1.13rem;
+			 margin:0;
+			 
+}
+#foot div.innerfoot dl:first-child dd{
+             font-size:1rem;
+			 margin:0;
+			 padding-top:25%;
+			 padding-bottom:13.602%;
+			 
+}
+#foot div.innerfoot dl:first-child dd a{
+             font-size:0.9rem;
+}
+#foot div.innerfoot dl{
+             padding-top:3.166666%;
+			 width:22.66666%;
+			 float:left;
+			 padding-left:7.333333%;
+			 
+             
+}
+#foot div.innerfoot dl dt{
+             font-size:1.13rem;
+			 margin:0;
+			 
+}
+#foot div.innerfoot dl dd{
+             font-size:1rem;
+			 margin:0;
+			 padding-top:10.6617%;
+			 padding-right:11.7644%;
+			 float:left;
+}
+#foot div.innerfoot dl dd.second{
+             padding-top:8.4558%
+}
+#foot div.innerfoot dl dd a{
+             font-size:0.9rem;
+}
+#mistake1{
+             margin:0 -30%;
+			 background-color:white;
+}
+#mistake2{
+             margin:0 -30%;
+			 background-color:rgb(38,162,111);
+}
+#foot div.innerfoot p{
+             float:right;
+			 font-size:1rem;
+			 padding-top:2.916%;
+}
+#foot div.innerfoot>a{
+             display:block;
+			 width:8%;
+			 padding:4% 0;
+             clear:right;
+			 float:right;
+			 background:url(img/t721.png) no-repeat;
+			 background-size:100%;
+			 margin-top:0.05%;
+}
+
+
+
+
+
+                 
+
+
+@media  screen and (max-width: 800px) {   
+                         html{ font-size:60%; }
+					} 
+@media  screen and (max-width: 400px) {   
+                         html{ font-size:30%; }
+					}  
